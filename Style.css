@@ -1,0 +1,146 @@
+body{
+	margin: 2px;
+	width: 98.5%;
+	position: center;
+	border: 2px solid rgb(53, 52, 95);
+	padding: 2px;
+	background-color: rgb(116, 207, 228);
+	color: rgb(51, 16, 120);
+	font-weight: 500;
+	overflow: auto;
+}
+
+/*Body-header*/
+#body-header{
+	height: 60vh;
+	background-image: url(Image/bg1-image.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 1.2rem;
+
+}
+
+
+/*Horizontal List*/
+
+.horizontal-list {
+	list-style: none;
+	text-align: center;
+	min-width: : 5px;
+	height: 2px;
+	font-family: cursive;
+}
+	
+.horizontal-list li {
+	display: inline-block;
+	margin: 20px 9px 9px 0px;
+	font-size: 18px;
+	
+}
+
+.horizontal-list li a{
+	text-decoration: none;
+	color: antiquewhite;
+	font-family: cursive;
+}
+
+.nav-menu li a {transition: color 0.5s, border-bottom 5s;
+
+}
+
+.nav-menu li a:hover {
+	color: crimson;
+	border-bottom: 1px solid green;
+
+}
+
+
+.text-center {
+	justify-self: center;
+	text-align: center;
+	justify-content: center;
+
+}
+
+/*Name and social icons*/
+
+#name-social-container {
+	margin-top: 12vh;
+	
+}
+#my-name {
+	font-style: Sans-serif;
+	font-weight: 700;
+	color: whitesmoke;
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	margin-bottom: 0.9rem;	
+	
+}
+
+#my-name:hover {
+	font-style: Sans-serif;
+	color: rgb(164, 85, 109);
+	border-bottom: 1px solid green
+}
+
+.social-icons li a img{
+	padding: 10px;
+	font size: 1rem;
+	border-radius: 50%;
+	min-width:  10px;
+	height: 20px;
+	object-position: center;
+}
+
+.social-icons li a img:hover{
+	box-shadow: 0px 0px 6px 4px rgba(420,980,680,0.9);
+}
+
+
+/*About*/
+
+#about{
+ margin: 0px 80px ;
+ position: relative;
+}
+#Skills{
+	margin: 0px 80px ;
+	position: relative;
+   }
+   #Experience{
+	margin: 0px 80px ;
+	position: relative;
+   }
+   #Projects{
+	margin: 0px 80px ;
+	position: relative;
+   }
+   #Contact{
+	margin: 0px 80px ;
+	position: relative;
+   }
+#my-image {
+ height: 20rem;
+ width: 20rem;
+ margin: auto;
+ margin-top: -25vh;
+}
+
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px 4px rgba(420,980,680,0.9);
+}
+
+.symbol {
+		padding: 0px;
+		font size: 1rem;
+		border-radius: 20%;
+		min-width:  10px;
+		height: 20px;
+		margin: 0px 10px 0px 0px;
+		justify-self:left;
+	}
